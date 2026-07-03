@@ -69,7 +69,7 @@ output toward the intended emotional valence for validation purposes.
 
 ## Relational T_ij Extraction
 
-`DCFE_Tij_extract.py` provides an exploratory probe for examining how relational context can modulate cognitive mass \(T_{ij}\). The purpose of this script is not to claim a complete extraction method for \(T_{ij}\), but to illustrate why cognitive mass should be treated as relational and tensorial rather than as a simple scalar weight.
+`DCFE_Tij_extract.py` provides an exploratory probe for examining how relational context can modulate cognitive mass $T_{ij}$. The purpose of this script is not to claim a complete extraction method for $T_{ij}$, but to illustrate why cognitive mass should be treated as relational and tensorial rather than as a simple scalar weight.
 
 In DCFE, the same event does not acquire the same cognitive mass in every context. For example, a killing event changes its interpretive force depending on the object and context of the act: killing an innocent person, killing a murderer, killing the murderer of one’s family, killing a criminal, or killing for revenge. These cases all retain a positive pull toward the `crime` attractor, but the strength of that pull varies according to relational and normative context.
 
@@ -79,11 +79,11 @@ This reflects the central claim of DCFE:
 
 > Cognitive mass does not arise from the stimulus alone, but from the relation among subject, object, history, and normative context.
 
-Therefore, \(T_{ij}\) must be represented as a relational tensor. A scalar value cannot distinguish between structurally different cases such as “killing an innocent person” and “killing the murderer of one’s family,” even though both contain the same surface-level action.
+Therefore, $T_{ij}$ must be represented as a relational tensor. A scalar value cannot distinguish between structurally different cases such as “killing an innocent person” and “killing the murderer of one’s family,” even though both contain the same surface-level action.
 
 The current implementation uses manually defined semantic anchors such as `crime`, `innocent`, `guilty`, `justice`, and `revenge`. These anchors are only illustrative. Future work should replace them with empirically calibrated cognitive masses derived from larger models, neural manifold analysis, behavioral data, or multimodal signals.
 
-The resulting values should be interpreted as candidate signals for \(T_{ij}\), not as definitive moral measurements.
+The resulting values should be interpreted as candidate signals for $T_{ij}$, not as definitive moral measurements.
 
 This module serves as a reference implementation demonstrating that the relational cognitive mass ($T_{ij}$) proposed by the Dynamic Cognitive Field Equation (DCFE) actually exists within the hidden-state geometry of LLMs. Rather than claiming the absolute validity of specific numerical values, this material aims to emphasize the necessity of the DCFE framework by clearly defining the existence and limitations of geometric signals.
 
